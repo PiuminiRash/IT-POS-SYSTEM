@@ -25,11 +25,38 @@
   </div>
 </section>
 
+<!--navigation bar-->
+<!--<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">-->
+<!--  <div class="container-fluid">-->
+<!--    <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt="" width="80px"></a>-->
+<!--    <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--      <ul class="navbar-nav me-auto mb-2 mb-lg-0">-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link " aria-current="page" href="#Home">Home</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" href="#customer">Customer</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" href="#item">Item</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" href="#order"> Order</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" href="#order_Details">Place Order</a>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--      <form class="d-flex" role="search">-->
+<!--        &lt;!&ndash;                <button id="Signup"><img src="assets/signup.png" alt="signup" width="30px"> SignUp</button>&ndash;&gt;-->
+<!--        &lt;!&ndash;                <button id="logout"><img src="assets/logout.png" alt="logout" width="30px"> Logout</button>&ndash;&gt;-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</nav>-->
 <nav id="navBar" class="navbar navbar-expand-lg bg-body-tertiary bg-primary-subtle">
   <div  class="container-fluid">
-    <a class="navbar-brand" href="#home">
-      <img src="assets/image/payment.png" alt="Bootstrap" width="50" height="50"> POS
-    </a>
+<!--    <a class="navbar-brand" href="#Home"><h1>SP</h1></a>-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +65,7 @@
     <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuBar">
         <li class="nav-item">
-          <a class="nav-link active gradient-text" id="home_page" aria-current="page" href="#home">Home</a>
+          <a class="nav-link active gradient-text" id="home_page" aria-current="page" href="#Home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link gradient-text" id="customer_page" href="#customer">Customer</a>
@@ -57,81 +84,93 @@
   </div>
 </nav>
 
-<main id="home" class="home">
-  <div class="home1">
-    <section class="home_page_paragraph">
-      <div>
+<!--<main id="home" class="home">-->
+<!--  <div class="home1">-->
+<!--    <section class="home_page_paragraph">-->
+<!--      <div>-->
+<!--        <div>-->
+<!--          <h1>Welcome To POS System</h1>-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--          <p>Welcome to My POS System which  </p>-->
+<!--          <p>start with your industry.Let's start with your industry.</p>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="col col-xxl-8 col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">-->
+<!--        <div class="chart-card">-->
+<!--          <h3 class="chart-title">Revenue</h3>-->
+<!--          <div>-->
+<!--            <canvas id="lineChart"></canvas>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+  <section class="home" id="Home">
+    <div class="banner">
+      <img src="assets/image/Home.jpg">
+      <div></div>
+      <div class="content">
+        <h1>ORDER AND SHOPPING</h1>
         <div>
-          <h1>Welcome To POS System</h1>
-        </div>
-
-        <div>
-          <p>Welcome to My POS System which  </p>
-          <p>start with your industry.Let's start with your industry.</p>
+          <button id="buttonCon" type="button">CONTACT US</button>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="col col-xxl-8 col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
-        <div class="chart-card">
-          <h3 class="chart-title">Revenue</h3>
-          <div>
-            <canvas id="lineChart"></canvas>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="details">
-      <div id="customerCard">
-        <div class="card mb-3" style="width: 280px;">
-          <div class="row g-0">
-            <div id="customerImg" class="col-md-4">
-              <img src="assets/image/icons8-customer-64.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Customers</h5>
-                <p class="card-text">32</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<!--    <section class="details">-->
+<!--      <div id="customerCard">-->
+<!--        <div class="card mb-3" style="width: 280px;">-->
+<!--          <div class="row g-0">-->
+<!--            <div id="customerImg" class="col-md-4">-->
+<!--              <img src="assets/image/icons8-customer-64.png" class="img-fluid rounded-start" alt="...">-->
+<!--            </div>-->
+<!--            <div class="col-md-8">-->
+<!--              <div class="card-body">-->
+<!--                <h5 class="card-title">Customers</h5>-->
+<!--                <p class="card-text">32</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
       <!--<section></section>-->
-      <div id="itemCard">
-        <div class="card mb-3" style="width: 280px;">
-          <div class="row g-0">
-            <div id="itemImg" class="col-md-4">
-              <img src="assets/image/icons8-item-100.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Items</h5>
-                <p class="card-text">32</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<!--      <div id="itemCard">-->
+<!--        <div class="card mb-3" style="width: 280px;">-->
+<!--          <div class="row g-0">-->
+<!--            <div id="itemImg" class="col-md-4">-->
+<!--              <img src="assets/image/icons8-item-100.png" class="img-fluid rounded-start" alt="...">-->
+<!--            </div>-->
+<!--            <div class="col-md-8">-->
+<!--              <div class="card-body">-->
+<!--                <h5 class="card-title">Items</h5>-->
+<!--                <p class="card-text">32</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
 
-      <div id="orderCard">
-        <div class="card mb-3" style="width: 280px;">
-          <div class="row g-0">
-            <div id="orderImg" class="col-md-4">
-              <img src="assets/image/icons8-order-64.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Orders</h5>
-                <p class="card-text">32</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-</main>
+<!--      <div id="orderCard">-->
+<!--        <div class="card mb-3" style="width: 280px;">-->
+<!--          <div class="row g-0">-->
+<!--            <div id="orderImg" class="col-md-4">-->
+<!--              <img src="assets/image/icons8-order-64.png" class="img-fluid rounded-start" alt="...">-->
+<!--            </div>-->
+<!--            <div class="col-md-8">-->
+<!--              <div class="card-body">-->
+<!--                <h5 class="card-title">Orders</h5>-->
+<!--                <p class="card-text">32</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+<!--  </div>-->
+<!--</main>-->
 
 <main id="customer" class="customer">
   <div class="customer1">

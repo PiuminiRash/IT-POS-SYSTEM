@@ -17,34 +17,39 @@ body {
 
 .loading-page {
     z-index: 20;
-    background: linear-gradient(to bottom, #4e91dd 15%, #7895bb 100%);
+    background: linear-gradient(to bottom, #001661 50%, #dde4f1 100%);
     width: 1920px;
     height: 944px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .loading-page .counter {
     text-align: center;
 }
+
 .loading-page .counter p {
     font-size: 40px;
     font-weight: 100;
-    color: white;
+    color: #fffdfd;
 }
+
 .loading-page .counter h1 {
-    color: black;
+    color: #ffffff;
     font-size: 60px;
     margin-top: -10px;
 }
+
 .loading-page .counter hr {
     position: absolute;
     top: 130px;
     left: 0;
-    background: white;
+    background: #ffc700;
     border: none;
     height: 5px;
 }
+
 .loading-page .counter {
     position: relative;
     width: 200px;
@@ -54,8 +59,9 @@ body {
     top: 0;
     width: 100%;
 }
+
 .loading-page .counter .color {
     width: 0px;
     overflow: hidden;
-    color: white;
+    color: #2b3092;
 }

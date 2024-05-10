@@ -21,8 +21,8 @@
 }
 
 .btn-outline-success:hover{
-    background-color: #4c70de;
-    border: 1px solid #0006ff;
+    background-color: #001b6a;
+    border: 1px solid #6a6eff;
 }
 
 .btn-outline-primary{
@@ -46,8 +46,8 @@
 }
 
 .table-color>tr>th{
-    background-color: #4c70de;
-    color: #FFFFFF;
+    background-color: #001662;
+    color: #578fe8;
 }
 
 .table{
